@@ -30,11 +30,17 @@ export default function Navbar() {
         <ul className="hidden md:flex gap-8 font-medium">
           {navLinks.map((link, idx) =>
             link.external ? (
-              <li key={idx}>
-                <a href={link.to} target="_blank" className="hover:text-cyan-200 transition">
-                  {link.name}
-                </a>
-              </li>
+              <li>
+  <a
+    href="https://github.com/Mohammadfraaj990"  // ✅ Your actual username
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:text-cyan-200 transition"
+  >
+    GitHub
+  </a>
+</li>
+
             ) : (
               <li key={idx}>
                 <Link to={link.to} className="hover:text-cyan-200 transition">
