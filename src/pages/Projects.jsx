@@ -8,7 +8,7 @@ export default function Projects() {
     {
       name: "AI LangConverter",
       demo: "http://localhost:8501/",
-      github: "https://github.com/Mohammadfraaj990/LangConvertort"
+      github: "https://github.com/Mohammadfraaj990/LangConvertor"
     }
   ];
 
