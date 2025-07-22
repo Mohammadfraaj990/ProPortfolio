@@ -13,7 +13,7 @@ export default function Navbar() {
     { name: "Projects", to: "/projects" },
     { name: "Contact", to: "/contact" },
     { name: "Skills", to: "/skills" },
-    { name: "GitHub", to: "https://github.com/officiallyfaraz", external: true },
+    { name: "GitHub", to: "https://github.com/Mohammadfraaj990", external: true },
   ];
 
   return (
@@ -32,7 +32,7 @@ export default function Navbar() {
             link.external ? (
               <li>
   <a
-    href="https://github.com/Mohammadfraaj990"  // ✅ Your actual username
+    href="https://github.com/Mohammadfraaj990/Portfolio"  // ✅ Your actual username
     target="_blank"
     rel="noopener noreferrer"
     className="hover:text-cyan-200 transition"
