@@ -6,9 +6,9 @@ export default function Projects() {
       github: "https://github.com/officiallyfaraz/jarvis"
     },
     {
-      name: "AI PDF Chatbot",
-      demo: "https://demo-link.com",
-      github: "https://github.com/officiallyfaraz/pdf-chatbot"
+      name: "AI LangConverter",
+      demo: "http://localhost:8501/",
+      github: "https://github.com/Mohammadfraaj990/LangConvertort"
     }
   ];
 
